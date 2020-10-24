@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+.card-list {
+  padding: 0;
+  margin: 10px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
